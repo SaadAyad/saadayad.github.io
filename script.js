@@ -1,8 +1,19 @@
-$(document).ready(function(){
-	$('.button').hover(function(){
-		$(this).addClass('active');
+var main = function() {
+	$('.product').hover(function(){
+		$(this).find('.titleProd').addClass('activeProd');
 	},
 	function(){
-		$(this).removeClass('active');
-	});
+		$(this).find('.titleProd').removeClass('activeProd');
+	});		
+
+
+$('.widePic').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
 });
+
+}
+
+$(document).ready(main);

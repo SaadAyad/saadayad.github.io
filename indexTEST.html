@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="stylesheetTEST.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script type='text/javascript' src='script.js'></script>
 <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Petit+Formal+Script' rel='stylesheet' type='text/css'>
@@ -18,24 +18,28 @@
 <!--Navigation Bar and Logo-->
 
 <div class = navigationBar>
+<div>
 	<p id="logo">&nbsp T r a d i n g &nbsp P o s t</p>
-
-<form>
+</div>
+<div>
+<form class="search">
 	<input type="text" placeholder="Search..." required>
 	<input type="button" value="Search">
 </form>
+</div>
 
-
+<div>
 	<ul class="navLinks">
-		<li>About Us</li>
 		<li>Tents</li>
 		<li>Sleeping Bags</li>
 		<li>Footwear</li>
 		<li>Winterwear</li>
 		<li>Account</li>
-		<li>Cart</li>
+		<li>Cart &nbsp<img class="cart" src="cart.png"></li>
 	</ul>
 </div>
+</div>
+
 
 <!-- Corny Quote -->
 
@@ -44,20 +48,6 @@
 </div>
 
 
-<!--Slideshow--
-<div class="bgSlide">
-	<div class="slideshow">
-
-		<div> <img class="bg" src="https://4.bp.blogspot.com/-e-LMO43WW6g/VJB2FxL31UI/AAAAAAABZjY/rnaCW7GLPiw/s0/Camping%2Bin%2Bthe%2Bwoods%2BUHD.jpg"/>
-		</div>
-		<div> <img class="bg" src="http://umad.com/img/2016/3/hiking-widescreen-wallpaper-13156-13613-hd-wallpapers.jpg"/>
-		</div>
-		<div> <img class="bg" src="image3.jpeg"/>
-		</div>
-	</div>
-</div>
-
--->
 
 <div class="widePic">
 		<img src="hiking.jpg">
@@ -73,39 +63,85 @@
 <!--For Sale-->
 
 <div class="packsSale">
-<p class="packsTitle"><strong><strong>Backpacks on Sale</strong></p>
-	<div class="saleItems row1">
-		<div class="specSale">
+<p class="packsTitle"><strong><strong>Equipment on Sale</strong></p>
+	<div>
+		<div class="specSale product">
 			<img src="backpack.png">
 			<p class="titleProd">Outdoor Master 40L Backpack</p>
 			<p class="desc">This pack will barely hold the shit <br/> you need for more than 4 days. Buy it now!</p>
 			<p class="price">$90.00</p>
 		</div>
-<
+		<div class="row">
 		<div class="regProd">
-			<img class="can" src="can.png">
+			<div class="product">
+			<img class="item" src="can.png">
 			<p class="titleProd">Yeti Colster Coozie</p>
-			<p class="desc">Coozies are important and essential pieces of<br/> equipment for your camping trip!</p>
-			<p class="price">$14.00</p>		
-		</div>
+			<p class="desc">Coozies are important and essential pieces of<br/> equipment for your camping trip</p>
+			<p class="price">$14.00</p>	
+			</div>
 
-		<div class="regProd2">
-			<img class="backpack" src="backpack2.png">
+			<div class="product">	
+			<img class="item" src="backpack2.png">
 			<p class="titleProd">Osprey 50L Backpack</p>
 			<p class="desc">Osprey brings another kickass backpack <br/> for your camping needs</p>
 			<p class="price"> $120.00</p>
+			</div>
 		</div>
 	</div>
 
-		<div class="saleItems row2">
-			<img class="backpack" src="backpack2.png">
+	<div class="saleItems row2">
+		<div class="product">
+			<img class="item" src="backpack2.png">
 			<p class="titleProd"> Gray Backpack 50L </p>
 			<p class="desc">Here's another cute little backpack</p>
 			<p class="price"> $130.00 </p>
 		</div>
+		<div class="weed product">
+			<img class="item" src="http://67.media.tumblr.com/83a9d4e853d33ceba3f41f8a24895aba/tumblr_mk6bvgBvgM1s5jjtzo1_500.png">
+			<p class="titleProd">Blueberry Yum Yum</p>
+			<p class="desc">We sell dank</p>
+			<p class="price">$175.00</p>
+		</div>
 
+	</div>
 </div>
 
+<!--Information-->
+
+<div class="footer">
+	<div class="centeredFooter">
+		<div class="row1Footer">
+			<div class="socialMedia">
+				<img class="icon" src="icons.png">
+			</div>
+			<div class="who">
+				<h2>WHO WE ARE</h2>
+				<p>Trading Post is a site that allows<br/> people to trade, buy and sell their <br/> camping gear with other people.</p>
+			</div>
+			<div class="misc">
+				<ul>
+					<li>Careers</li>
+					<li>Your Account</li>
+					<li>Return Policy</li>
+					<li>Membership</li>
+					<li>Shipping Info</li>
+				</ul>
+			</div>
+			<div class="mail">
+				<h2>SIGN UP FOR EMAIL</h2>
+				<p>Keep up with the latest<br/> equipment.</p>
+			</div>
+			<div class="hikes">
+				<h2>REGISTER FOR HIKES</h2>
+				<p>At Trading Post we also offer classes<br/> for novice or seasoned hikers. Register now<br/> for learning and adventure!</p>
+			</div>
+
+
+		</div>
+
+
+	</div>
+</div>
 
 
 
