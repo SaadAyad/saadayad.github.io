@@ -1,14 +1,15 @@
 .navigationBar {
 	background-color: #333;
+	display: flex;
+	height: 70px;
 }
 
 #logo {
 	font-family: 'Amatic SC', cursive;
 	color: white;
-	margin: 0;
 	font-size: 45px;
-	display: inline-block;
-	overflow: hidden;
+	width: 300px;
+	margin-top: 0px;
 }
 
 
@@ -17,7 +18,8 @@ form {
 	overflow: none;
 	float: right;
 	background: rgba(50, 50, 50, 0.5);
-	margin-top: -3%;
+	margin-top: 20px;
+	width: 200px;
 }
 
 form input{
@@ -25,15 +27,11 @@ form input{
 }
 
 .navLinks {
-	text-align: center;
-	display: inline-block;
+
 	overflow: none;
-	margin-top: -2%
-}
+	position: relative;
+	top: 5px;
 
-
-.activeNav {
-	color: green;
 }
 
 .activeProd {
@@ -46,9 +44,8 @@ form input{
 	color: white;
 	list-style: none;
 	display: inline;
-	padding: 25px;
-	font-size: 20px;
-	position: center;
+	padding: 20px;
+	font-size: 24px;
 }
 
 .navLinks li:hover {
@@ -56,8 +53,8 @@ form input{
 }
 
 .cart {
-	width: 1%;
-	height: 1%;
+	width: 2.5%;
+	height: 2.5%;
 }
 
 #quote {
